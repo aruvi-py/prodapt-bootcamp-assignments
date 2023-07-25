@@ -1,0 +1,31 @@
+<h1 id="ranking-products">Ranking products</h1>
+<p>You have been given a comma-separated list of products and their
+ratings on a scale of 100 by a research firm you employed. However,
+they’ve given you the data in the order in which they did research, so
+it’s not guaranteed to be in an order useful to make business decisions.
+The good thing is that all the data is well-formatted in the following
+format:</p>
+<pre><code>product1, 85
+product2, 53
+product3, 85
+product4, 23
+...</code></pre>
+<p>Your task is to produce a ranked list of products that looks like
+this:</p>
+<pre><code>1, product1
+1, product3
+3, product2
+4, product4</code></pre>
+<p>Note that you need to give product1 and product3 the same rank, and
+this pushes product2 to rank 3 in our system.</p>
+<p>Write a java function that can help you. These are the things to
+consider:</p>
+<ol type="1">
+<li>You need to read from a file and write to a file</li>
+<li>You need a robust data structure to represent the input once read
+fromt he file.</li>
+<li>You need an efficient algorithm that produces a rank list without
+traversing the list of products too many times.</li>
+</ol>
+<p>Everything else is up to you. You are required to submit a single
+.java file.</p>

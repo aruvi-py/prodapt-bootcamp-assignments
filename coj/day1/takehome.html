@@ -1,0 +1,25 @@
+<h2 id="the-point-class">The Point class</h2>
+<p>A point in 2D space is represented by a pair of coordinates like so:
+(10.0, 2.5). Write a Java class whose instances represent a single point
+in 2D space. Include the method:</p>
+<pre><code>public double distanceFrom(Point other)</code></pre>
+<p>Include any other methods you find necessary.</p>
+<h2 id="the-line-class">The Line class</h2>
+<p>A line in 2D space is represented in two equivalent ways:
+<code>y = mx + c</code> or <code>ax + by + c = 0</code>. Pick one way of
+representing it, and write a Java class whose instances represent a
+single line in 2D space. Include the method:</p>
+<pre><code>public double distanceFrom(Point p)</code></pre>
+<pre><code>public Point intersection(Line other)</code></pre>
+<p>What do you think the <code>intersection</code> method should return
+when the lines are parallel? Think about it. Include any other methods
+you find necessary.</p>
+<h2 id="the-testing-class">The Testing class</h2>
+<ul>
+<li>Write a new class called <code>Testing</code> to test the classes
+you’ve written until now.</li>
+<li>Create a Line to represent <code>y = x + 5</code></li>
+<li>Create a Line to represent <code>y = 2x + 10</code></li>
+<li>Print the distance from the origin (Point(0, 0)) to the intersection
+between the two lines above.</li>
+</ul>

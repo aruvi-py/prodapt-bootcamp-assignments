@@ -1,0 +1,60 @@
+<h1 id="odometer">Odometer</h1>
+<ul>
+<li>What is the most important component of the Odometer?</li>
+<li>The reading!</li>
+</ul>
+<p><span class="math inline">0018991</span></p>
+<p><span class="math inline">9999999</span> <span
+class="math inline">0000000</span></p>
+<ul>
+<li><p>We are going to work with a very special and weird
+Odometer.</p></li>
+<li><p>The digits in the odometer reading should be in strictly
+ascending order.</p></li>
+</ul>
+<p><span class="math inline">1122</span> [no] <span
+class="math inline">1039</span> [no]</p>
+<p><span class="math inline">5789</span> [yes]</p>
+<h2 id="now-some-more-interesting-questions">Now some more interesting
+questions</h2>
+<ul>
+<li>What is the next odometer reading for:</li>
+</ul>
+<p><span
+class="math inline">145 ⟹ 146 ⟹ 147 ⟹ 148 ⟹ 149 ⟹ 156 ⟹ 157 ⟹ 158 ⟹ 159 ⟹ 167 ⟹ 168 ⟹ 169 ⟹ 178 ⟹ 179 ⟹ 189 ⟹ 234</span></p>
+<ul>
+<li>What is the previous odometer reading for:</li>
+</ul>
+<p><span
+class="math inline">1239 ⟹ 1238 ⟹ 1237 ⟹ 1236 ⟹ 1235 ⟹ 1234 ⟹ 6789</span></p>
+<ul>
+<li>What is the smallest odometer reading for an odometer of 6
+digits?</li>
+</ul>
+<p><span class="math inline">123456</span></p>
+<ul>
+<li>What is the largest odometer reading for an odometer of 3
+digits?</li>
+</ul>
+<p><span class="math inline">789</span></p>
+<ul>
+<li><p>If we want to operate this odometer digitally, we are interested
+in some functions.</p></li>
+<li><p>What could they be?</p></li>
+</ul>
+<ol type="1">
+<li>Are the digits in strictly ascending order. public static boolean
+isAscending(int reading)</li>
+<li>WHat is the next reading? public static int nextReading(int
+reading)</li>
+<li>WHat is the previous reading? public static int prevReading(int
+reading)</li>
+<li>What is the reading k readings after the current reading? public
+static int nextKthReading(int reading, int k)</li>
+<li>What is the reading k readings before the current reading? public
+static int prevKthReading(int reading, int k)</li>
+<li>What is the distance between two readings of the odometer? 123 &lt;
+14 Is this distance going to be large or small: 123 is the largest
+possible distance measurable by a 3-digit odometer 789 is exactly 1
+public static int distanceBetween(int start, int end)</li>
+</ol>
